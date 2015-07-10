@@ -10,7 +10,9 @@
       <module>flume</module>
       <module>user</module> -->
 
-      <module>untitled</module>
+      <module>myext</module>
+      <module>mycms</module>
+      <!--<module>e</module>-->
     </modules>
     <packaging>pom</packaging>
 
