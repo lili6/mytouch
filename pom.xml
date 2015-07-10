@@ -10,7 +10,7 @@
       <module>flume</module>
       <module>user</module> -->
 
-      <module>untitled</module>
+      <module>myext</module>
     </modules>
     <packaging>pom</packaging>
 
