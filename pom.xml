@@ -11,7 +11,7 @@
       <module>user</module> -->
 
       <module>myext</module>
-      <module>mycms</modeule>
+      <module>mycms</module>
     </modules>
     <packaging>pom</packaging>
 
