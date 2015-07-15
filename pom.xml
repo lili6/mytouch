@@ -11,6 +11,7 @@
       <module>user</module> -->
 
       <module>myext</module>
+      <module>ExtJSWeb</module>
       <module>mycms</module>
     </modules>
     <packaging>pom</packaging>
