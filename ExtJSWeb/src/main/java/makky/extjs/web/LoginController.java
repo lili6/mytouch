@@ -19,14 +19,13 @@ public class LoginController {
 		GenericResponse genericResponse = new GenericResponse();
 		Gson gson = new Gson();
 
-		if (user.equals("makky") && password.equals("password")) {
+		if (user.equals("lili") && password.equals("111111")) {
 			genericResponse.setMsg("Login successful");
 			genericResponse.setSuccess(true);
 		} else {
 			genericResponse.setMsg("Login failed!");
 			genericResponse.setSuccess(false);
 		}
-
 		String json = gson.toJson(genericResponse);
 		return json;
 

@@ -1,18 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>mytouch</artifactId>
+        <artifactId>mycms</artifactId>
         <groupId>com.lili</groupId>
         <version>1.0</version>
+        <relativePath>../mycms/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>mycms</artifactId>
-    <packaging>pom</packaging>
-    <name>mycms Maven Webapp</name>
+    <artifactId>mymvc</artifactId>
+    <packaging>war</packaging>
+    <name>mymvc Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../mymvc</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -22,20 +20,14 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>mycms</finalName>
+        <finalName>mymvc</finalName>
         <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
-                <!--<version>8.1.16.v20140903</version>-->
                 <version>6.1.10</version>
 
             </plugin>
         </plugins>
     </build>
-    <properties>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.encoding>UTF-8</java.encoding>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 </project>

@@ -1,9 +1,7 @@
 Ext.application({
 
-	
 	controllers:['LoginController'],
 	name : 'ExtJSWebSpring',
-	
 
 	launch : function() {
 
@@ -18,7 +16,8 @@ Ext.application({
 				remove : true,
 				listeners:{
 					afteranimate:function(el,startTime,eOpts){
-						Ext.widget('login');
+						//Ext.widget('login');
+						Ext.widget('grid');
 					}
 				}
 			

@@ -1,7 +1,7 @@
 Ext.define('ExtJSWebSpring.controller.LoginController', {
 	extend : 'Ext.app.Controller',
 
-	views : [ 'Login' ],
+	views : [ 'Login','GridDemo' ],
 
 	init : function(application) {
 		this.control({
@@ -46,6 +46,7 @@ Ext.define('ExtJSWebSpring.controller.LoginController', {
 							msg : result.msg,
 							buttons : Ext.Msg.OK
 						});
+						Ext.widget('grid');
 					} else {
 						Ext.Msg.show({
 							title : 'Login failed',
